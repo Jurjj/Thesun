@@ -35,7 +35,9 @@ public class FirstFragment extends Fragment {
 
         // Create adapter passing in the sample user data
         String[] ss = {"ff", "gg", "ff", "ff", "gg", "ff", "ff", "gg", "ff", "ff", "gg", "ff", "ff", "gg", "ff"};
-        CustomAdapter adapter = new CustomAdapter(ss);
+        String[] dd = {"world", "wo", "wer", "wo", "wer","wo", "wer","wo", "wer","wo", "wer","wo", "wer","wo","wer",};
+
+        CustomAdapter adapter = new CustomAdapter(ss,dd);
         // Attach the adapter to the recyclerview to populate items
         rvContacts.setAdapter(adapter);
         // Set layout manager to position the items

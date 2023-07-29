@@ -10,4 +10,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Element"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:text="World"
+        android:textSize="24sp"
+        android:translationX="100dp" />
 </FrameLayout>
