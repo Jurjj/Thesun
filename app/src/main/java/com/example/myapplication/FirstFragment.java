@@ -34,7 +34,7 @@ public class FirstFragment extends Fragment {
         RecyclerView rvContacts = (RecyclerView) getView().findViewById(R.id.recyclerView);
 
         // Create adapter passing in the sample user data
-        String[] ss = {"ff", "gg", "ff", "gg"};
+        String[] ss = {"ff", "gg", "ff", "ff", "gg", "ff", "ff", "gg", "ff", "ff", "gg", "ff", "ff", "gg", "ff"};
         CustomAdapter adapter = new CustomAdapter(ss);
         // Attach the adapter to the recyclerview to populate items
         rvContacts.setAdapter(adapter);
